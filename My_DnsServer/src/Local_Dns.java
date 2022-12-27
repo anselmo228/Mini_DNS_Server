@@ -9,7 +9,7 @@ public class Local_Dns extends Thread {
 			@SuppressWarnings("resource")
 			DatagramSocket ds = new DatagramSocket(9999); 
 			InetAddress ia = InetAddress.getByName("Localhost");
-			
+			 
 			/*미리 캐싱된 데이터*/
 			@SuppressWarnings("serial")
 			HashMap<String, String> cache = new HashMap<>() {{

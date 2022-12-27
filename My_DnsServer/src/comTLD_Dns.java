@@ -12,7 +12,7 @@ public class comTLD_Dns {
 			while(true) {
 				System.out.println("Waiting for a packet reception...");
 				
-				
+				 
 				byte[] bf = new byte[300];
 				
 				/*Local로부터 URL 값 받아오기 */

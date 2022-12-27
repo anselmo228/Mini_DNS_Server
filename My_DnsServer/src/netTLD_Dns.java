@@ -16,7 +16,7 @@ public class netTLD_Dns {
 				
 				
 				byte[] bf = new byte[300];
-				
+				 
 				/*Local로부터 URL 값 받아오기 */
 				DatagramPacket fromLocal = new DatagramPacket(bf, bf.length, ia, 9999);
 				ds.receive(fromLocal);

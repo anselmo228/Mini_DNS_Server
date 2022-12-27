@@ -11,9 +11,9 @@ public class Host {
 				System.out.println("1. google.com    snu.kr    oxford.uk         daum.net" + "\n" + "2. naver.com    "
 						+ "gachon.kr    cambridge.uk    microsoft.net" + "\n" + "3. twitter.com     korea.kr                 amazon.net");
 				System.out.println("=======================================================" + "\n");
-				
+				 
 				while(true)
-				{
+	 			{
 				@SuppressWarnings("resource")
 				DatagramSocket ds = new DatagramSocket();
 				InetAddress ia = InetAddress.getByName("Localhost");

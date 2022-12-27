@@ -14,7 +14,7 @@ public class Root_Dns {
 				DatagramPacket dp = new DatagramPacket(bf, bf.length); 
 				System.out.println("Waiting for a packet reception...");
 				ds.receive(dp);
-				
+				 
 				String rs = new String(bf);
 				String rs2= rs.trim();
 				
